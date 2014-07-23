@@ -1,6 +1,9 @@
 scrivito_flickr
 ===============
 
+[![Gem Version](https://badge.fury.io/rb/scrivito_flickr.svg)](http://badge.fury.io/rb/scrivito_flickr)
+[![Code Climate](https://codeclimate.com/github/gertimon/scrivito_flickr.png)](https://codeclimate.com/github/gertimon/scrivito_flickr)
+
 A Widget for Scrivito to insert some images from flickr using the api.
 
 ## Installation
