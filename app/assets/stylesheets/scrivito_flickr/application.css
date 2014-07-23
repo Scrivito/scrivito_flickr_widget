@@ -1,0 +1,10 @@
+.flickr-widget {
+  overflow: hidden;
+}
+
+.flickr-widget .flickr_badge_image {
+  border: 1px solid #000;
+  float: left;
+  padding: 2px;
+  margin: 2px;
+}

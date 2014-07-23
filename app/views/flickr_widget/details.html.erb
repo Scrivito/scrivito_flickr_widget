@@ -1,0 +1,24 @@
+<div class="editing flickr_widget">
+  <div class="alert alert-info">
+    Die IDs des Users oder der Gruppe kann hier herausgefunden werden:
+    <strong>
+      <%= link_to('ID herausfinden','http://idgettr.com/', target: '_blank') %>
+    </strong>
+  </div>
+  <h4>Id des Users</h4>
+  <%= cms_tag(:div, widget, :user_id) %>
+  <h4>Id der Gruppe</h4>
+  <%= cms_tag(:div, widget, :group_id) %>
+  <h4>Id der Sets</h4>
+  <%= cms_tag(:div, widget, :set_id) %>
+  <h4>Tags</h4>
+  <%= cms_tag(:div, widget, :tags) %>
+  <h4>Quelle</h4>
+  <%= cms_edit_enum(widget, :source) %>
+  <h4>Reihenfolge</h4>
+  <%= cms_edit_enum(widget, :order) %>
+  <h4>Anzahl</h4>
+  <%= cms_edit_enum(widget, :count) %>
+  <h4>Bildgröße</h4>
+  <%= cms_edit_enum(widget, :size) %>
+</div>
