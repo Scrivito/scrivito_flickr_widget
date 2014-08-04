@@ -23,6 +23,10 @@ And then execute:
     $ rake cms:migrate
     $ rake cms:migrate:publish
 
+## Changelog
+See [Changelog](https://github.com/gertimon/scrivito_flickr/blob/master/CHANGELOG.md) for more
+details.
+
 ## Contributing
 
 1. Fork it ( https://github.com/infopark/scrivito_flickr/merge_tags/fork )
