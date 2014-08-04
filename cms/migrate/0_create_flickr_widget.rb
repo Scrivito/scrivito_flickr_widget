@@ -1,6 +1,6 @@
 class CreateFlickrWidget < ::Scrivito::Migration
   def up
-    create_obj_class(
+    Scrivito::ObjClass.create(
       name: 'FlickrWidget',
       type: 'publication',
       title: 'Flickr Widget',
