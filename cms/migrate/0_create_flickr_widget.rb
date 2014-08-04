@@ -3,6 +3,7 @@ class CreateFlickrWidget < ::Scrivito::Migration
     Scrivito::ObjClass.create(
       name: 'FlickrWidget',
       type: 'publication',
+      is_binary: false,
       title: 'Flickr Widget',
       attributes: [
         {:name=>"user_id", :type=>"string"},

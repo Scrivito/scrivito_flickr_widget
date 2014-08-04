@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    scrivito_flickr (0.0.1)
+    scrivito_flickr (0.0.2)
       bundler
       scrivito_sdk
 
