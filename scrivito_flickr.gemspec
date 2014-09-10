@@ -7,12 +7,14 @@ require "scrivito_flickr/version"
 Gem::Specification.new do |s|
   s.name        = "scrivito_flickr"
   s.version     = ScrivitoFlickr::VERSION
-  s.authors     = ["Gert Geidel"]
-  s.email       = ["gert.geidel@infopark.de"]
-  s.homepage    = "https://scrivito.com"
+
+  s.authors     = ["Scrivito"]
+  s.email       = ["support@scrivito.com"]
+  s.homepage    = "https://www.scrivito.com"
+  
   s.summary     = "Scrivito Widget using flickr API"
   s.description = "Scrivito Widget using flickr API"
-  s.license     = "LGPL-3"
+  s.license     = "LGPL-3.0"
 
   s.files = Dir[
     "{app,lib,cms}/**/*",
