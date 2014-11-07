@@ -1,5 +1,9 @@
 # Changelog: Scrivito Flickr
 
+## 1.1.0
+
+* Rename to new naming convention
+
 ## 1.0.0
 
 * Change author to Scrivito

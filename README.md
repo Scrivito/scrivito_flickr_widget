@@ -1,8 +1,7 @@
-scrivito_flickr
-===============
+# scrivito_flickr_widget
 
-[![Gem Version](https://badge.fury.io/rb/scrivito_flickr.svg)](http://badge.fury.io/rb/scrivito_flickr)
-[![Code Climate](https://codeclimate.com/github/gertimon/scrivito_flickr.png)](https://codeclimate.com/github/gertimon/scrivito_flickr)
+[![Gem Version](https://badge.fury.io/rb/scrivito_flickr_widget.svg)](http://badge.fury.io/rb/scrivito_flickr_widget)
+[![Code Climate](https://codeclimate.com/github/Scrivito/scrivito_flickr_widget.png)](https://codeclimate.com/github/Scrivito/scrivito_flickr_widget)
 
 A Widget for Scrivito to insert some images from flickr using the api.
 
@@ -10,11 +9,11 @@ A Widget for Scrivito to insert some images from flickr using the api.
 
 Add this line to your application's `Gemfile`:
 
-    gem 'scrivito_flickr'
+    gem 'scrivito_flickr_widget'
 
 Add this line to your application Stylesheet manifest:
 
-    *= require scrivito_flickr/application
+    *= require scrivito_flickr_widget/application
 
 And then execute:
 
@@ -24,12 +23,12 @@ And then execute:
     $ rake cms:migrate:publish
 
 ## Changelog
-See [Changelog](https://github.com/gertimon/scrivito_flickr/blob/master/CHANGELOG.md) for more
+See [Changelog](https://github.com/Scrivito/scrivito_flickr_widget/blob/master/CHANGELOG.md) for more
 details.
 
 ## Contributing
 
-1. Fork it ( https://github.com/infopark/scrivito_flickr/merge_tags/fork )
+1. Fork it ( https://github.com/Scrivito/scrivito_flickr_widget/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

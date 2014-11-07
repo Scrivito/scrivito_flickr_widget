@@ -1,12 +1,12 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "scrivito_flickr/version"
+require "scrivito_flickr_widget/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "scrivito_flickr"
-  s.version     = ScrivitoFlickr::VERSION
+  s.name        = "scrivito_flickr_widget"
+  s.version     = ScrivitoFlickrWidget::VERSION
 
   s.authors     = ["Scrivito"]
   s.email       = ["support@scrivito.com"]
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.license     = "LGPL-3.0"
 
   s.files = Dir[
-    "{app,lib,cms}/**/*",
+    "{app,lib,scrivito}/**/*",
     "LICENSE",
     "Rakefile"
   ]
