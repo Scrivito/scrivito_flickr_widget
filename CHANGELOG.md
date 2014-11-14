@@ -1,5 +1,9 @@
 # Changelog: Scrivito Flickr
 
+## 1.1.1
+
+* Fix naming from old kickstarter method
+
 ## 1.1.0
 
 * Rename to new naming convention
