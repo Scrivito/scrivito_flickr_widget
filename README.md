@@ -10,6 +10,7 @@ A Widget for Scrivito to insert some images from flickr using the api.
 Add this line to your application's `Gemfile`:
 
     gem 'scrivito_flickr_widget'
+    gem 'scrivito_advanced_editors'
 
 Add this line to your application Stylesheet manifest:
 
