@@ -1,3 +1,8 @@
+/*
+ *= require_self
+ *= require scrivito_advanced_editors
+*/
+
 .flickr-widget {
   overflow: hidden;
 }
