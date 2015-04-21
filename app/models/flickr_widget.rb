@@ -1,4 +1,13 @@
 class FlickrWidget < Widget
+  attribute :user_id, :string
+  attribute :group_id, :string
+  attribute :set_id, :string
+  attribute :tags, :string
+  attribute :source, :enum, :values=>["user","group","all_tag","set"]
+  attribute :order, :enum, :values=>["latest","random"]
+  attribute :count, :enum, :values=>["1","2","3","4","5","6","7","8","9","10"]
+  attribute :size, :enum, :values=>["small","thumbnail","medium"]
+
   def flickr_request_url
     "https://www.flickr.com/badge_code_v2.gne?#{url_count}&#{url_source}&#{url_order}&#{url_size}&layout=x"
   end
