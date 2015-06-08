@@ -1,24 +1,37 @@
-<div class="editing flickr_widget">
-  <div class="alert alert-info">
-    Die IDs des Users oder der Gruppe kann hier herausgefunden werden:
-    <strong>
-      <%= link_to('ID herausfinden','http://idgettr.com/', target: '_blank') %>
-    </strong>
-  </div>
-  <h4>Id des Users</h4>
-  <%= scrivito_tag(:div, widget, :user_id) %>
-  <h4>Id der Gruppe</h4>
-  <%= scrivito_tag(:div, widget, :group_id) %>
-  <h4>Id der Sets</h4>
-  <%= scrivito_tag(:div, widget, :set_id) %>
-  <h4>Tags</h4>
-  <%= scrivito_tag(:div, widget, :tags) %>
-  <h4>Quelle</h4>
-  <%= scrivito_toggle_button_editor(widget, :source) %>
-  <h4>Reihenfolge</h4>
-  <%= scrivito_toggle_button_editor(widget, :order) %>
-  <h4>Anzahl</h4>
-  <%= scrivito_toggle_button_editor(widget, :count) %>
-  <h4>Bildgröße</h4>
-  <%= scrivito_toggle_button_editor(widget, :size) %>
+<div class="alert alert-info">
+  Die IDs des Users oder der Gruppe kann hier herausgefunden werden:
+  <strong>
+    <%= link_to('ID herausfinden','http://idgettr.com/', target: '_blank') %>
+  </strong>
 </div>
+<%= scrivito_details_for 'Id des Users' do %>
+  <%= scrivito_tag(:div, widget, :user_id) %>
+<% end %>
+
+<%= scrivito_details_for 'Id der Gruppe' do %>
+  <%= scrivito_tag(:div, widget, :group_id) %>
+<% end %>
+
+<%= scrivito_details_for 'Id der Sets' do %>
+  <%= scrivito_tag(:div, widget, :set_id) %>
+<% end %>
+
+<%= scrivito_details_for 'Tags' do %>
+  <%= scrivito_tag(:div, widget, :tags) %>
+<% end %>
+
+<%= scrivito_details_for 'Quelle' do %>
+  <%= scrivito_toggle_button_editor(widget, :source) %>
+<% end %>
+
+<%= scrivito_details_for 'Reihenfolge' do %>
+  <%= scrivito_toggle_button_editor(widget, :order) %>
+<% end %>
+
+<%= scrivito_details_for 'Anzahl' do %>
+  <%= scrivito_toggle_button_editor(widget, :count) %>
+<% end %>
+
+<%= scrivito_details_for 'Bildgröße' do %>
+  <%= scrivito_toggle_button_editor(widget, :size) %>
+<% end %>
