@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Scrivito"]
   s.email       = ["support@scrivito.com"]
   s.homepage    = "https://www.scrivito.com"
-  
+
   s.summary     = "Scrivito Widget using flickr API"
   s.description = "Scrivito Widget using flickr API"
   s.license     = "LGPL-3.0"
@@ -24,7 +24,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'bundler'
   s.add_dependency 'scrivito_sdk'
-  s.add_dependency 'scrivito_advanced_editors'
 
   s.add_development_dependency 'rake'
 end
