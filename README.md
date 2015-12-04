@@ -11,7 +11,3 @@ Add this line to your application's Gemfile:
 Add this line to your application stylesheet manifest:
 
     *= require scrivito_flickr_widget
-
-Add this line to your application JavaScript manifest:
-
-    //= require scrivito_flickr_widget
