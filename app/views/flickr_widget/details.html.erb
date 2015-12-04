@@ -21,17 +21,17 @@
 <% end %>
 
 <%= scrivito_details_for 'Quelle' do %>
-  <%= scrivito_toggle_button_editor(widget, :source) %>
+  <%= scrivito_tag(:div, widget, :source) %>
 <% end %>
 
 <%= scrivito_details_for 'Reihenfolge' do %>
-  <%= scrivito_toggle_button_editor(widget, :order) %>
+  <%= scrivito_tag(:div, widget, :order) %>
 <% end %>
 
 <%= scrivito_details_for 'Anzahl' do %>
-  <%= scrivito_toggle_button_editor(widget, :count) %>
+  <%= scrivito_tag(:div, widget, :count) %>
 <% end %>
 
 <%= scrivito_details_for 'Bildgröße' do %>
-  <%= scrivito_toggle_button_editor(widget, :size) %>
+  <%= scrivito_tag(:div, widget, :size) %>
 <% end %>
