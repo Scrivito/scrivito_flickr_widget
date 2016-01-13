@@ -1,6 +1,6 @@
 # ScrivitoFlickrWidget
 
-A Scrivito widget to insert images from flickr using its API.
+A Scrivito widget for adding Flickr images to your pages.
 
 ## Installation
 
