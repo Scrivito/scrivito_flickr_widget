@@ -1,37 +1,37 @@
 <div class="alert alert-info">
-  Die IDs des Users oder der Gruppe kann hier herausgefunden werden:
+  <%= t('scrivito_flickr_widget.details.hint', default: 'The id of a user can be found here: ') %>
   <strong>
-    <%= link_to('ID herausfinden','http://idgettr.com/', target: '_blank') %>
+    <%= link_to('Flickr ID','http://idgettr.com/', target: '_blank') %>
   </strong>
 </div>
-<%= scrivito_details_for 'Id des Users' do %>
+<%= scrivito_details_for t('scrivito_flickr_widget.details.user_id', default: 'User ID') do %>
   <%= scrivito_tag(:div, widget, :user_id) %>
 <% end %>
 
-<%= scrivito_details_for 'Id der Gruppe' do %>
+<%= scrivito_details_for t('scrivito_flickr_widget.details.group_id', default: 'Group ID') do %>
   <%= scrivito_tag(:div, widget, :group_id) %>
 <% end %>
 
-<%= scrivito_details_for 'Id der Sets' do %>
+<%= scrivito_details_for t('scrivito_flickr_widget.details.set_id', default: 'Set ID') do %>
   <%= scrivito_tag(:div, widget, :set_id) %>
 <% end %>
 
-<%= scrivito_details_for 'Tags' do %>
+<%= scrivito_details_for t('scrivito_flickr_widget.details.tags', default: 'Tags') do %>
   <%= scrivito_tag(:div, widget, :tags) %>
 <% end %>
 
-<%= scrivito_details_for 'Quelle' do %>
+<%= scrivito_details_for t('scrivito_flickr_widget.details.source', default: 'Source') do %>
   <%= scrivito_tag(:div, widget, :source) %>
 <% end %>
 
-<%= scrivito_details_for 'Reihenfolge' do %>
+<%= scrivito_details_for t('scrivito_flickr_widget.details.Order', default: 'Order') do %>
   <%= scrivito_tag(:div, widget, :order) %>
 <% end %>
 
-<%= scrivito_details_for 'Anzahl' do %>
+<%= scrivito_details_for t('scrivito_flickr_widget.details.count', default: 'Count') do %>
   <%= scrivito_tag(:div, widget, :count) %>
 <% end %>
 
-<%= scrivito_details_for 'Bildgröße' do %>
+<%= scrivito_details_for t('scrivito_flickr_widget.details.size', default: 'Image Size') do %>
   <%= scrivito_tag(:div, widget, :size) %>
 <% end %>
